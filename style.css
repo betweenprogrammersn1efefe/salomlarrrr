@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.section-a {
+  background-color: #1b1e21; }
+  .section-a .container {
+    padding: 1% 1%; }
+    .section-a .container .row .d-flex {
+      margin-left: 300px; }
+      .section-a .container .row .d-flex h1 {
+        font-size: 50px;
+        animation-name: d1;
+        animation-iteration-count: infinite;
+        animation-duration: 6s;
+        font-family: "Franklin Gothic Medium",sans-serif; }
+@keyframes d1 {
+  25% {
+    color: red; }
+  50% {
+    color: yellow; }
+  75% {
+    color: blue; }
+  100% {
+    color: chartreuse; } }
+.section-b {
+  background-color: #1b1e21; }
+  .section-b .container {
+    padding: 1% 1%; }
+    .section-b .container h1 {
+      font-size: 45px;
+      font-family: -apple-system,sans-serif;
+      color: white;
+      animation-name: d2;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate-reverse; }
+@keyframes d2 {
+  0% {
+    margin-left: 0;
+    margin-top: 0; }
+  75% {
+    margin-left: 450px;
+    margin-top: 0; }
+  100% {
+    margin-left: 450px;
+    margin-top: 0; } }
+.section-c {
+  background: #f6f4f4; }
+  .section-c .container .navbar .navbar-nav .nav-item .nav-link {
+    margin-left: 50px;
+    color: black;
+    font-size: 20px;
+    font-family: "Book Antiqua",sans-serif; }
+  .section-c .container .navbar .navbar-nav .nav-item .nav-link:hover {
+    background: red;
+    color: white;
+    transition: 0.5s; }
+
+@media only screen and (max-width: 767px) {
+  body {
+    width: 100%; }
+    body .section-a {
+      background-color: #1b1e21 !important;
+      width: 100% !important; }
+      body .section-a .container {
+        background-color: #1b1e21 !important;
+        width: 96% !important; }
+        body .section-a .container .row {
+          background-color: #1b1e21 !important;
+          width: 96% !important; }
+          body .section-a .container .row .d-flex {
+            background-color: #1b1e21 !important;
+            margin-left: 30px !important; }
+            body .section-a .container .row .d-flex h1 {
+              font-size: 22px !important;
+              text-align: start !important; }
+    body .section-b .container {
+      width: 100% !important; }
+      body .section-b .container h1 {
+        font-size: 15px !important; }
+  @keyframes d2 {
+    0% {
+      margin-left: 0;
+      margin-top: 0; }
+    75% {
+      margin-left: 130px;
+      margin-top: 0; }
+    100% {
+      margin-left: 130px;
+      margin-top: 0; } }
+    body .section-c .container {
+      width: 96% !important;
+      display: block !important; }
+      body .section-c .container img {
+        margin-left: 10px;
+        width: 300px;
+        height: 200px; }
+      body .section-c .container .navbar .navbar-nav {
+        margin-left: 15px; }
+        body .section-c .container .navbar .navbar-nav .nav-item .nav-link {
+          font-size: 15px !important;
+          width: 100% !important;
+          text-align: center !important; } }
+
+/*# sourceMappingURL=style.css.map */
